@@ -9,6 +9,25 @@
     <link rel="stylesheet" href="{% static 'styles.css' %}">
   </head>
   <body>
-	<h1>Homepage</h1>
+	  <div class="container">
+        <form method="post">
+          {% csrf_token %}
+          {{ form }}
+        <input type="submit" value="Generate">
+        </form>
+        
+        <table>
+          <tr>
+            <th>Breakfest</th>
+            <th>Launch</th>
+            <th>Dinner</th>
+          </tr>
+          <tr>
+            <td>Insert data from backend here</td>
+            <td>Insert data from backend here</td>
+            <td>Insert data from backend here</td>
+          </tr>
+        </table> 
+	  <div>
   </body>
 </html>

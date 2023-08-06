@@ -1,3 +1,22 @@
 body{
   background-color: gray;
 }
+.container{
+  margin-top: 50px;
+}
+form{
+  text-align: center;
+  margin: 20px;
+}
+table{
+  margin: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+}
