@@ -19,4 +19,5 @@ table, th, td {
 
 td {
   padding: 10px;
+  max-width: 80px;
 }
