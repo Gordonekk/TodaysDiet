@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="{% static 'styles.css' %}">
   </head>
   <body>
+    <div class="background"></div>
 	  <div class="container">
         <form method="post">
           {% csrf_token %}
           {{ form }}
         <input type="submit" value="Generate">
         </form>
-        
         <table>
           <tr>
             <th>Breakfest</th>

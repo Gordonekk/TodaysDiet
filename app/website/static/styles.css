@@ -1,8 +1,30 @@
-body{
-  background-color: gray;
+body, html {
+  height: 100%;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
 }
 .container{
-  margin-top: 50px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.background {
+  background-image: url("../static/background.jpg");
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 form{
   text-align: center;
